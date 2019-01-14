@@ -1,7 +1,6 @@
 # HW0-DevOps
 
 #### Name: Arshdeep Singh Syal
-
 #### Unity Id: asyal
 
 We have set up a delivery pipeline with git hooks in this homework.
