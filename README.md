@@ -1,18 +1,20 @@
 # HW0-DevOps
 
-####Name: Arshdeep Singh Syal<br/>
-####Unity Id: asyal
+#### Name: Arshdeep Singh Syal
+
+#### Unity Id: asyal
 
 We have set up a delivery pipeline with git hooks in this homework.
+
 A delivery pipeline is a workflow system for building, validating, and deploying changes into a production environment. 
 
 1) Created profiles on Mattermost, Stack Overflow & edited profile on Moodle as per mentioned requirments.
 
 2) Created private repository called "HW0-DevOps" on NCSU's GitHub and added the TAs and instructor as a collaboratorors.
 
-3) Before working on building the pipeline, we need to perform opunit checks, for which we need to install opunit.(Before installing opunit istall node.js on the machine)
+3) Before working on building the pipeline, we need to perform opunit checks, for which we need to install opunit.(Before installing opunit install node.js on the machine)
 
-Opunit is a simple tool for verifying the configuration of a machine.<br/>
+Opunit is a simple tool for verifying the configuration of a machine.
 
 Opunit Install using the following command:
 
@@ -23,7 +25,7 @@ Now, to perform opunit checks, run the following command:
 ```opunit profile CSC-DevOps/profile:519.yml```
 
 
-## Oppunit Checks:
+### Oppunit Checks:
 
 <img width="823" alt="screenshot 2019-01-14 at 12 38 20 pm" src="https://media.github.ncsu.edu/user/12952/files/622c5180-1851-11e9-89b4-0c1f226b8e4c">
 
