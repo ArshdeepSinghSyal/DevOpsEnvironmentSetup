@@ -2,12 +2,17 @@
 
 #### Name: Arshdeep Singh Syal
 #### Unity Id: asyal
+#### Link to screencast video: 
 
 We have set up a delivery pipeline with git hooks in this homework.
 
 A delivery pipeline is a workflow system for building, validating, and deploying changes into a production environment. 
 
 1) Created profiles on Mattermost, Stack Overflow & edited profile on Moodle as per mentioned requirments.
+
+#### Moodle: https://moodle-courses1819.wolfware.ncsu.edu/user/profile.php?id=131751
+#### Mattermost (username): asyal
+#### Stack Overflow: https://stackoverflow.com/users/10893282/arshdeep-singh-syal
 
 2) Created private repository called "HW0-DevOps" on NCSU's GitHub and added the TAs and instructor as a collaboratorors.
 
@@ -23,13 +28,13 @@ Now, to perform opunit checks, run the following command:
 
 ```opunit profile CSC-DevOps/profile:519.yml```
 
-
+This command basically checks my local systems configuration against a course profile.
 ### Oppunit Checks:
 
 <img width="823" alt="screenshot 2019-01-14 at 12 38 20 pm" src="https://media.github.ncsu.edu/user/12952/files/622c5180-1851-11e9-89b4-0c1f226b8e4c">
 
 In case we get any of the opunit checks failing, which will be denoted by :x:<br/>
-We update the respective versions
+We update settings as required and update the tools, to their latest versions.
 
 ## PipeLine:
 
@@ -42,7 +47,7 @@ We update the respective versions
 <img width="967" alt="screenshot 2019-01-14 at 2 35 18 am" src="https://media.github.ncsu.edu/user/12952/files/48651d00-1805-11e9-8ab8-158d8abb6e39">
 
 <img width="966" alt="screenshot 2019-01-14 at 2 36 53 am" src="https://media.github.ncsu.edu/user/12952/files/48fdb380-1805-11e9-97a1-7dc56a2d2d05">
-
+\
 <img width="809" alt="screenshot 2019-01-14 at 2 40 14 am" src="https://media.github.ncsu.edu/user/12952/files/49964a00-1805-11e9-8617-fcc59f9cc8ac">
 
 <img width="596" alt="screenshot 2019-01-14 at 2 41 06 am" src="https://media.github.ncsu.edu/user/12952/files/49964a00-1805-11e9-9e90-60ef3a06d7cf">
