@@ -1,6 +1,20 @@
 # HW0-DevOps
 
+Name: Arshdeep Singh Syal
+Unity Id: asyal
+
+1) Created profiles on Mattermost, Stack Overflow & edited profile on Moodle as per mentioned requirments.
+
+2) Created private repository called "HW0-DevOps" on NCSU's GitHub and added the TAs and instructor as a collaboratorors.
+
+3) To perform opunit checks, ran the following command:
+
+```opunit profile CSC-DevOps/profile:519.yml```
+
+
 ## Oppunit Checks:
+
+<img width="823" alt="screenshot 2019-01-14 at 12 38 20 pm" src="https://media.github.ncsu.edu/user/12952/files/622c5180-1851-11e9-89b4-0c1f226b8e4c">
 
 <img width="1148" alt="screenshot 2019-01-13 at 6 03 22 am" src="https://media.github.ncsu.edu/user/12952/files/83198600-1802-11e9-846b-b178dabda137">
 
