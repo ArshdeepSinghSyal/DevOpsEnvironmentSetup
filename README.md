@@ -127,11 +127,11 @@ We make production.git a bare repository (repository without a working tree)
 Bare repository only holds git objects, from which code can be extracted as needed. 
 Using bare repository helps avoids having merge issues on production server.
 
-In production.git, we run git ```init --bare```
+In production.git, we run git ```init --bare``` to initialize it as a bare repository.
 
 <img width="677" alt="screenshot 2019-01-15 at 2 06 32 am" src="https://media.github.ncsu.edu/user/12952/files/32696200-18c2-11e9-84a1-4258a16a31eb">
 
-To hold the current version of software, we will use the production-www, and extract it from the bare repository using git checkout and we use the post-receive event, to create a hook to perform the git checkout operation for us.
+To hold the current version of software, we use production-www, extract it from the bare repository using git checkout and we use the "post-receive" event, to create a hook to perform the git checkout operation for us.
 
 <img width="393" alt="screenshot 2019-01-15 at 2 12 15 am" src="https://media.github.ncsu.edu/user/12952/files/fedb0780-18c2-11e9-808d-39c655bdbc94">
 
@@ -139,31 +139,31 @@ We create the following post-receive hook for production.git:
 
 <img width="355" alt="screenshot 2019-01-15 at 2 13 17 am" src="https://media.github.ncsu.edu/user/12952/files/25993e00-18c3-11e9-9776-ac80479960a8">
 
-This copies over the content of the latest code in production.git into production-www, and installs the appropriate dependencies for the web app.
+This command copies over the content of the latest code in production.git into production-www, and installs the appropriate dependencies for our web app.
 
-This script does not run the web app, however. To do that, we will install an utility, pm2, by running npm install pm2 -g. pm2 will ensure that the web app will stay running, even if it crashes.
+This script does not run the web app, inorder to do that we install pm2, by running npm '''install pm2 -g'''. (pm2 will ensure that the web app will stay running, even if it crashes)
 
 <img width="555" alt="screenshot 2019-01-15 at 2 19 54 am" src="https://media.github.ncsu.edu/user/12952/files/11097580-18c4-11e9-9889-cd352999b046">
 
-We add the following steps to our script, after npm install:
+We then add the following steps to our script, after npm install:
 npm run stop
 npm run start
 
 <img width="353" alt="screenshot 2019-01-15 at 2 16 40 am" src="https://media.github.ncsu.edu/user/12952/files/9d676880-18c3-11e9-9443-8171cc3ed589">
 
-Adding a git remote; Trying it out
+Now, to link the App repository with the remote production.git repository.
 
-Finally, we need to link the App repository with the remote production.git repository. While this is still located on the same machine, in practice, the process would be similar for a remote machine hosting a git repository.
+Inside the App directory, we run the following commands:
 
-Inside the App/ directory, run the following commands:
-
-git remote add prod ../deploy/production.git
+```git remote add prod ../deploy/production.git```
 
 <img width="563" alt="screenshot 2019-01-15 at 2 26 12 am" src="https://media.github.ncsu.edu/user/12952/files/f2f04500-18c4-11e9-817d-dd2f471d690e">
 
-Update the message, to be "Hi From production" and commit locally.
+We then ppdate the message, to be "Hi From production".
 
 <img width="684" alt="screenshot 2019-01-15 at 2 24 47 am" src="https://media.github.ncsu.edu/user/12952/files/c0464c80-18c4-11e9-821f-a30c4fcf1fb8">
+
+We then commit the changes locally.
 
 <img width="482" alt="screenshot 2019-01-15 at 2 30 57 am" src="https://media.github.ncsu.edu/user/12952/files/9ccfd180-18c5-11e9-9553-a4225c14e60e">
 
