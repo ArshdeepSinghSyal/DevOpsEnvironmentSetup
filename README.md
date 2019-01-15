@@ -29,7 +29,7 @@ Now, to perform opunit checks, run the following command:
 ```opunit profile CSC-DevOps/profile:519.yml```
 
 This command basically checks my local systems configuration against a course profile.
-### Oppunit Checks:
+#### Oppunit Checks:
 
 <img width="823" alt="screenshot 2019-01-14 at 12 38 20 pm" src="https://media.github.ncsu.edu/user/12952/files/622c5180-1851-11e9-89b4-0c1f226b8e4c">
 
@@ -167,6 +167,16 @@ We then commit the changes locally.
 
 <img width="482" alt="screenshot 2019-01-15 at 2 30 57 am" src="https://media.github.ncsu.edu/user/12952/files/9ccfd180-18c5-11e9-9553-a4225c14e60e">
 
+We see the following, at http://localhost:5001.
+
 <img width="594" alt="screenshot 2019-01-14 at 2 57 02 am" src="https://media.github.ncsu.edu/user/12952/files/4a2ee080-1805-11e9-80e5-2da2dd291aa5">
 
+To check our progress, we run the following command from the Pipelines directory again.
+
+```opunit verify local```
+
 <img width="997" alt="screenshot 2019-01-15 at 6 22 54 am" src="https://media.github.ncsu.edu/user/12952/files/137cc700-18e6-11e9-97d5-7cd912850448">
+
+This time we observe that the delivery pipeline passes all the checks.
+
+Hence we have successfully set up a simple delivery pipeline, consisting of git hooks and shell commands and have deployed a webb app using it.
