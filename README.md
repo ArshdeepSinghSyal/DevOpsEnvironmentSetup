@@ -4,7 +4,7 @@
 #### Unity Id: asyal
 #### Link to screencast video: 
 
-We have set up a delivery pipeline with git hooks using shell commands in this homework.
+I have set up a delivery pipeline with git hooks using shell commands in this homework.
 
 A delivery pipeline is a workflow system for building, validating, and deploying changes into a production environment. 
 
@@ -169,8 +169,4 @@ We then commit the changes locally.
 
 <img width="594" alt="screenshot 2019-01-14 at 2 57 02 am" src="https://media.github.ncsu.edu/user/12952/files/4a2ee080-1805-11e9-80e5-2da2dd291aa5">
 
-<img width="958" alt="screenshot 2019-01-13 at 6 07 11 am" src="https://media.github.ncsu.edu/user/12952/files/4601c380-1803-11e9-8259-05366995a8a9">
-
-<img width="959" alt="screenshot 2019-01-13 at 6 07 28 am" src="https://media.github.ncsu.edu/user/12952/files/53b74900-1803-11e9-8a83-b06ac4c230ef">
-
-<img width="957" alt="screenshot 2019-01-13 at 6 07 46 am" src="https://media.github.ncsu.edu/user/12952/files/5fa30b00-1803-11e9-8ebb-c8b31f26d2c7">
+<img width="997" alt="screenshot 2019-01-15 at 6 22 54 am" src="https://media.github.ncsu.edu/user/12952/files/137cc700-18e6-11e9-97d5-7cd912850448">
