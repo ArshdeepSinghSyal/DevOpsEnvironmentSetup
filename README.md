@@ -165,9 +165,13 @@ We then ppdate the message, to be "Hi From production".
 
 We then commit the changes locally.
 
-<img width="751" alt="screenshot 2019-01-15 at 11 25 57 am" src="https://media.github.ncsu.edu/user/12952/files/bba78580-1910-11e9-9ed0-985f9cb03476">
-
 <img width="470" alt="screenshot 2019-01-15 at 11 26 52 am" src="https://media.github.ncsu.edu/user/12952/files/bfd3a300-1910-11e9-90e7-112bce2c0c01">
+
+Finally, we push changes in App to remote repository using the following command:
+
+```git push prod master```
+
+<img width="751" alt="screenshot 2019-01-15 at 11 25 57 am" src="https://media.github.ncsu.edu/user/12952/files/bba78580-1910-11e9-9ed0-985f9cb03476">
 
 We see the following, at http://localhost:5001.
 
