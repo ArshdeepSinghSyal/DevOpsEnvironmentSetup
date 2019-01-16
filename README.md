@@ -186,3 +186,8 @@ To check our progress, we run the following command from the Pipelines directory
 This time we observe that the delivery pipeline passes all the checks.
 
 Hence we have successfully set up a simple delivery pipeline, consisting of git hooks and shell commands and have deployed a web app using it. This pipeline runs tests, installs, and "deploys" an application into production based on a commit.
+
+Note: I have uploaded the following file in the master branch.<br/>
+pre-commit<br/>
+post-commit<br/>
+post-receive
